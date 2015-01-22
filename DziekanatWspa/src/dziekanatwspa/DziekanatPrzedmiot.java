@@ -3,7 +3,7 @@ package dziekanatwspa;
 /**
  * @author Piotr Nazar
  */
-public class Przedmiot {
+public class DziekanatPrzedmiot {
     
     //Pola klasy
     private String przedmiotNazwa="Przedmiot";
@@ -15,12 +15,12 @@ public class Przedmiot {
     private int przedmiotIloscWolnych=0;
     
     //Konstruktor domyślny
-    public Przedmiot(){
+    public DziekanatPrzedmiot(){
         //Pusty konstruktor
     }
 
     //Konstruktor
-    public Przedmiot(
+    public DziekanatPrzedmiot(
             String nazwa,
             String skrot,
             String prowadzacy,
